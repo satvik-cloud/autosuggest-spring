@@ -1,3 +1,3 @@
 # autosuggest-spring
 
-#creating auto suggest application
+# creating auto suggest application
