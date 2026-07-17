@@ -2,5 +2,6 @@ h1{
     color: blue;
 }
 body {
-  background-color: rgb(112, 105, 105); 
+background: #1e3b2a;
+background: linear-gradient(180deg, rgba(30, 59, 42, 1) 0%, rgba(5, 173, 72, 1) 100%);
 }
