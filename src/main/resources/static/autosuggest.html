@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 35px;
+            border-width: 2px;
+            border-color: red;
+            text-align: center;
+        }
+        .gear{
+            position: fixed;
+            left: 20px;
+            top: 20px;
+        }
+
+        .clock{
+            position: fixed;
+            right: 20px;
+            top: 20px;
+        }
+
+        .logo{
+            margin-top: 15px;
+        }
+
+        .tag{
+            color: grey;
+        }
+        
+        .special{
+            color: blue;
+        }
+
+        .searchbar{
+            border: 20px;
+            width: 50%;
+            border-radius: 25px;
+            padding: 10px 10px 10px 25px;
+        }
+
+        .lens{
+            position: relative;
+            left: 30px;
+
+        }
+
+        .search-suggestions {
+            width: 50%;
+            margin: 8px 0 0;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            text-align: left;
+            margin: 0px auto;
+        }
+        .suggestion {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <span class="gear"> &#x2699; </span>
+    <span class="clock"> &#x2022; online | &#x1F552; - ms </span>
+    <h1 class="logo"><span class="special">Being</span>Infinity </h1>
+    <p class="tag">One million phrases. Four Algorithms. Prefix based Auto Suggest.</p>
+    <span class="lens">&#x1F50D;</span>
+    <input class="searchbar" placeholder="Start typing to search phrases...">  
+     <div class="search-suggestions">
+        <div class="suggestion"> Cyber security </div>
+        <div class="suggestion"> Artificial Intelligence and Data Science </div>
+    </div>                                                                                                                      
+</body>
+</html>
