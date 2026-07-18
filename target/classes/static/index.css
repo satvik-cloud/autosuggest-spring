@@ -9,3 +9,22 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed; 
 }
+.navbar {
+  background-color: #305417; 
+  border-color: #305417;
+  margin: 20px;
+  text-align: center;
+}  
+
+.navbar a{
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.navbar a:hover{
+  color: #0b1307;
+  background-color: #305417;
+}
