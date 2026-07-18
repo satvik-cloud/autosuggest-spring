@@ -56,8 +56,8 @@ body{
 }
 .card{
     border: 1px solid black;
-    width: 100px;
-    border-radius: 50px;
+    width: 350px;
+    border-radius: 30px;
     text-align: center;
     margin-top: 70px;
     overflow: hidden;
