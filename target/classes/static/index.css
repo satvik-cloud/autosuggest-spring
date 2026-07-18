@@ -37,8 +37,6 @@ body{
     filter: blur(40px);
     z-index: -1;
 }
-
-
 .navbar a{
     color: #00ff66;
     text-decoration: none;
@@ -47,8 +45,6 @@ body{
     margin: 0 10px;
     transition: 0.3s ease;
 }
-
-
 .navbar a:hover{
     background-color: #00ff66;
     color: black;
